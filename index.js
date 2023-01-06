@@ -13,4 +13,4 @@ app.use(express.static(path.join(__dirname,'dist')))
     //res.send('Hello World!')
     res.render('index.html')
 })
-.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
+.listen(port, () => console.log(`Listening at http://localhost:${port}`));
