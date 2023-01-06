@@ -1,0 +1,61 @@
+{
+  "disability_types": {
+    "1": "Physical",
+    "2": "Mental",
+    "3": "Both"
+  },
+  "ndis_participants": {
+    "1": "Yes",
+    "2": "No"
+  },
+    "disability_supports": {
+        "1": "Transport",
+        "2": "Personal Care",
+        "3": "Home Modifications",
+        "4": "Respite",
+        "5": "Assistive Technology",
+        "6": "Other"
+    },
+    "disability_supports_other": {
+        "1": "Transport",
+        "2": "Personal Care",
+        "3": "Home Modifications",
+        "4": "Respite",
+        "5": "Assistive Technology",
+        "6": "Other"
+    },
+   "labor_market": {
+     "1": "Employed",
+     "2": "Unemployed",
+     "3": "Not in the labor force",
+     "4": "Not applicable",
+     "5": "Other"
+   },
+  "home_ownership": {
+    "1": "Own",
+    "2": "Rent",
+    "3": "Other"
+  },
+  "k5": {
+    "1": "Yes",
+    "2": "No"
+  },
+  "k6_score": {
+    "1": "0",
+    "2": "1",
+    "3": "2",
+    "4": "3",
+    "5": "4",
+    "6": "5",
+    "7": "6",
+    "8": "7",
+    "9": "8",
+    "10": "9",
+    "11": "10"
+  },
+  "funding_sources": {
+    "1": "NDIS",
+    "2": "Self-funded",
+    "3": "Other"
+  }
+}
