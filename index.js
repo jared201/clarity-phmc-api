@@ -13,4 +13,12 @@ app.use(express.static(path.join(__dirname,'dist')))
     //res.send('Hello World!')
     res.render('index.html')
 })
+.get('/lookup', (req, res) => {
+    const lookup_module = require('./server/lookup_module');
+    lookup_module.get_lookup(
+        function (data) {
+            res.send(data);
+        }
+    )
+})
 .listen(port, () => console.log(`Listening at http://localhost:${port}`));
